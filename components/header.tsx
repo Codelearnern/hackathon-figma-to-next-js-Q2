@@ -9,16 +9,16 @@ function Header() {
       <div>
         <ul className="flex justify-end bg-gray-100 p-1">
           <li className="border-r-2 border-black pr-4 mr-2 last:border-r-0">
-            <Link href="/FindaStore">Find a Store</Link>
+            <Link href="/">Find a Store</Link>
           </li>
           <li className="border-r-2 border-black pr-4 mr-2 last:border-r-0">
             <Link href="/Help">Help</Link>
           </li>
           <li className="border-r-2 border-black pr-4 mr-2 last:border-r-0">
-            <Link href="/Join Us">Join Us</Link>
+            <Link href="/JoinUs">Join Us</Link>
           </li>
           <li className="pr-4">
-            <Link href="/Sign In">Sign In</Link>
+            <Link href="/Sign-In">Sign In</Link>
           </li>
         </ul>
       </div>
@@ -27,7 +27,7 @@ function Header() {
       <div className="bg-white py-3">
         <ul className="flex justify-center gap-6 text-lg">
           <li>
-            <Link href="/New & Featured">New & Featured</Link>
+            <Link href="/Aproduct">New & Featured</Link>
           </li>
           <li>
             <Link href="/Men">Men</Link>

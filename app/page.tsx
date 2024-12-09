@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Hero from "@/components/hero";
 
 
 
@@ -8,8 +9,8 @@ export default function Home() {
   return(
     <div>
     <Header/>
-    
-     <div>HE</div>
+    <div>hi</div>
+    <Hero/>
     <Footer/>
    </div>
   );
