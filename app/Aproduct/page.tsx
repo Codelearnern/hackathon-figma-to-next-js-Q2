@@ -3,7 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Link from "next/link";
 import React from "react";
-
+import ProductCard from "@/components/product";
 import Image from 'next/image';
 
 const ProductsPage = () => {
@@ -63,7 +63,7 @@ const ProductsPage = () => {
 
         {/* Product 3 */}
         <div className="bg-white shadow-md rounded-lg" style={{ width: "348px", height: "533px" }}>
-          <Link href="/product/3">
+          <Link href="/productD">
             <div>
               <Image
                 src="/p3.jpg"
@@ -171,21 +171,23 @@ const ProductsPage = () => {
           </Link>
         </div>
 
-                {/* Product 8 */}
-                <div className="bg-white shadow-md rounded-lg" style={{ width: "348px", height: "533px" }}>
+        {/* Product 8 */}
+        <div className="bg-white shadow-md rounded-lg" style={{ width: "348px", height: "533px" }}>
           <Link href="/product/8">
             <div>
               <Image 
                 src="/p8.jpg" 
                 alt="Product 8" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348}
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
                 <p className="text-sm text-black font-semibold mt-1">Product 8</p>
                 <p className="text-sm text-gray-600 mt-1">$99.99</p>
                 <p className="text-sm text-gray-600 mt-1">1 Colour</p>
+                <p className="text-black font-semibold mt-1">MRP : ₹10,795</p>
               </div>
             </div>
           </Link>
@@ -199,7 +201,8 @@ const ProductsPage = () => {
                 src="/p9.jpg" 
                 alt="Product 9" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348}
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -220,7 +223,8 @@ const ProductsPage = () => {
                 src="/p10.jpg" 
                 alt="Product 10" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -241,7 +245,8 @@ const ProductsPage = () => {
                 src="/p11.jpg" 
                 alt="Product 11" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -262,7 +267,8 @@ const ProductsPage = () => {
                 src="/p12.jpg" 
                 alt="Product 12" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -283,7 +289,8 @@ const ProductsPage = () => {
                 src="/p13.jpg" 
                 alt="Product 13" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -304,7 +311,8 @@ const ProductsPage = () => {
                 src="/p14.jpg" 
                 alt="Product 14" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -325,7 +333,8 @@ const ProductsPage = () => {
                 src="/p15.jpg" 
                 alt="Product 15" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -346,7 +355,8 @@ const ProductsPage = () => {
                 src="/p16.jpg" 
                 alt="Product 16" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -367,7 +377,8 @@ const ProductsPage = () => {
                 src="/p17.jpg" 
                 alt="Product 17" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -387,7 +398,8 @@ const ProductsPage = () => {
                 src="/p18.jpg" 
                 alt="Product 18" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -408,7 +420,8 @@ const ProductsPage = () => {
                 src="/p19.jpg" 
                 alt="Product 19" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -429,7 +442,8 @@ const ProductsPage = () => {
                 src="/p20.jpg" 
                 alt="Product 20" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -450,7 +464,8 @@ const ProductsPage = () => {
                 src="/p21.jpg" 
                 alt="Product 21" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -471,7 +486,8 @@ const ProductsPage = () => {
                 src="/p22.jpg" 
                 alt="Product 22" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -492,7 +508,8 @@ const ProductsPage = () => {
                 src="/p23.jpg" 
                 alt="Product 23" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -513,7 +530,8 @@ const ProductsPage = () => {
                 src="/p24.jpg" 
                 alt="Product 24" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -534,7 +552,8 @@ const ProductsPage = () => {
                 src="/p25.jpg" 
                 alt="Product 25" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348}
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -555,7 +574,8 @@ const ProductsPage = () => {
                 src="/p26.jpg" 
                 alt="Product 26" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -576,7 +596,8 @@ const ProductsPage = () => {
                 src="/p27.jpg" 
                 alt="Product 27" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -597,7 +618,8 @@ const ProductsPage = () => {
                 src="/p28.jpg" 
                 alt="Product 28" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -618,7 +640,8 @@ const ProductsPage = () => {
                 src="/p29.jpg" 
                 alt="Product 29" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
@@ -639,7 +662,8 @@ const ProductsPage = () => {
                 src="/p30.jpg" 
                 alt="Product 30" 
                 className="w-full h-48 object-cover rounded-t-md" 
-                style={{ height: "348px", width: "348px" }} 
+                width={348}
+                height={348} 
               />
               <div className="p-4">
                 <h3 className="text-sm font-semibold mt-2 text-orange-700">Just In</h3>
